@@ -13,7 +13,7 @@ for s in range(len(subjects)): #getting score
             print('Please enter a valid integer between 0 and 100.')
     while True: #confirm range
         if score < 0 or score > 100:
-            print("Bullshit, Try again. ")
+            print("Bullshit, try again. ")
             score = float(input(f'Please enter your score for subject {subjects[s]}: '))
         else:
             break
